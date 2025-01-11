@@ -20,6 +20,11 @@ body {
     padding: 15px 30px;
 }
 
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
 /* header style open */
 /* navber styls */
 .nav-main {
@@ -238,7 +243,8 @@ body {
     padding: 40px 40px;
     margin-top: 32px;
 }
-.news-blog-main{
+
+.news-blog-main {
     padding-top: 32px;
 }
 
@@ -264,9 +270,114 @@ body {
     font-weight: 400;
     padding: 16px 0px 16px 0px;
 }
-.blog-btn{
+
+.blog-btn {
     background-color: #006A50;
     color: white;
     font-size: 18px;
     font-weight: 600;
+}
+
+/* ---donate style--------- */
+.donate-main {
+    margin-top: 80px;
+}
+
+.donate-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #0E0E0E;
+}
+
+.donate-dec {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #272626;
+    padding: 24px 0px 32px 0px;
+}
+
+.donate-price-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.donate-box {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 40px 40px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.box-2 {
+    background-color: blueviolet;
+    color: white;
+}
+
+.donate-box:hover {
+    background-color: pink;
+    border-radius: 12px;
+    padding: 40px 40px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donate-input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 28px;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.donate-input {
+    background-color: white;
+    width: 1035px;
+    margin: auto;
+    padding: 12px 8px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.donate-btn {
+    background-color: #006A50;
+    margin-top: 32px;
+    border: 1px solid #006A50;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* fotetr style*/
+.footer-main {
+    background-color: white;
+    padding: 45px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.footer-main h3 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+}
+.line{
+    border: 1px solid black;
+    width: 1030px;
+}
+.socail-icon{
+    display: flex;
+    gap: 18px;
+
+}
+.socail-icon li{
+    list-style: none;
 }
